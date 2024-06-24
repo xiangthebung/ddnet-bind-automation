@@ -1,5 +1,0 @@
-Usage: c, lshift(copyflybasic.txt), capslock(copyflybasic.txt)
-echo Deepfly: On
-bind mouse1 "+fire; +toggle cl_dummy_hammer 1 0; cl_dummy_restore_weapon 0; cl_dummy_control 0"
-Off: c
-echo Deepfly: Off; cl_dummy_hammer 0;
