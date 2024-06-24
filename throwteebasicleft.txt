@@ -1,0 +1,6 @@
+Usage: q
+echo Teethrow left
+bind mouse1 "toggle cl_dummy 1 0; +toggle cl_dummy_hammer 1 0; +left"
+Off: lshift
+echo Teethrow Off;
+

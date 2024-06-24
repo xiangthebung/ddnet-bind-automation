@@ -1,0 +1,8 @@
+Usage: y
+echo edgeJumpOn
+echo S: 16 31 34 D: 56 69 72 84
+echo S: 62 66 81 D: 13 25 28 41
+bind a "echo edgeJumpLeft; bind s \"+left; +jump\""
+bind d "echo edgeJumpRight; bind s \"+right; +jump\""
+Off: y
+echo edgeJumpOff;

@@ -1,0 +1,7 @@
+Usage: v
+echo Copyfly On
+bind mouse1 "+toggle cl_dummy_hammer 1 0; +weapon1; cl_dummy_restore_weapon 0; cl_dummy_control 1"
+bind d "+right; cl_dummy_copy_moves 1; cl_dummy_control 1"
+bind a "+left; cl_dummy_copy_moves 1; cl_dummy_control 1"
+Off: v
+echo Copyfly Off; cl_dummy_copy_moves 0; cl_dummy_control 0; cl_dummy_hammer 0;
