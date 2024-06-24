@@ -1,6 +1,6 @@
 import re
 from ddnetBind import Bind
-
+# https://www.youtube.com/watch?v=eegOxuHxg2g Tutorial
 
 directory = r"C:\Users\xiang\AppData\Roaming\DDNet\w"[:-1]
 
