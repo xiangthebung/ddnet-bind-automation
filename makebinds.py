@@ -2,6 +2,7 @@ import re
 from ddnetBind import Bind
 # https://www.youtube.com/watch?v=eegOxuHxg2g Tutorial
 
+# Add a character at the end because strings can't end with \
 directory = r"C:\Users\xiang\AppData\Roaming\DDNet\w"[:-1]
 
 
@@ -49,7 +50,7 @@ echo Deepfly: Off; cl_dummy_hammer 0;
 
 # Caution:
 # If you have nested binds, eg bind a "bind mouse1 \"...\"" we will not revert back the bind inside (mouse1) because I am not checking recursively
-# Therefore, in the document, in this example, add a bind mouse1 ""
+# Therefore, in the document, in this example, add a bind mouse1 
 # It does not do anything, but my program will know to reset the bind, ensuring correct behavior         
 
 excl = ["deepflybasic.txt", "copyflybasic.txt", "throwteebasicleft.txt", "throwteebasicright.txt", "switchonfirebasic.txt", "edgejumpbasic.txt"]
